@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.img-con {
+  display: flex;
+  justify-content: center;
+}
+.img-Soup {
+  width: 100vw;
+  height: 49vh;
+  object-fit: cover;
+}
+
+.text-img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+span {
+  position: absolute;
+  bottom: 100px;
+  color: white;
+  font-size: 80px;
+  font-weight: 100;
+}
+.con-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+p {
+  font-size: 18px;
+  font-weight: 100;
+  width: 650px;
+  color: rgb(139, 139, 139);
+}
+
+.img-recipe-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.recipe-info {
+  width: 250px;
+  height: 33px;
+  margin-bottom: 40px;
+}
+.line-one {
+  border-bottom: 1px solid rgb(119, 117, 117);
+  margin-left: 390px;
+  margin-right: 400px;
+}
+.line-two {
+  border-bottom: 1px solid rgb(119, 117, 117);
+  margin-left: 390px;
+  margin-right: 380px;
+}
+.steps {
+  display: flex;
+  justify-content: center;
+}
+.title-step {
+  margin-top: 20px;
+}
+.title-step {
+  color: #000;
+}
+.all-steps {
+  display: flex;
+  justify-content: left;
+  margin-left: 360px;
+}
+.step-by-step {
+  color: rgb(139, 139, 139);
+  list-style-type: "- ";
+  margin-top: 20px;
+  font-weight: 200;
+}
+.img-rcooking-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.cooking-info {
+  width: 260px;
+  height: 60px;
+  margin-bottom: 40px;
+}
+.step-by-step-cooking {
+  width: 630px;
+  color: rgb(139, 139, 139);
+  margin-top: 20px;
+  list-style-type: symbols();
+  margin-bottom: 40px;
+  line-height: 1.5;
+  font-weight: 100;
+}
+.list-type-one {
+  list-style-type: "1) ";
+}
+.list-type-two {
+  list-style-type: "2) ";
+}
+.list-type-three {
+  list-style-type: "3) ";
+}
+.list-type-four {
+  list-style-type: "4) ";
+}
